@@ -10,9 +10,9 @@ export default class App extends Component {
     return (
       <div>
         <Navbar/>
-        <News country="in" category="science" pageSize={5}/>
+        <News pageSize={5}country="in" category="science"/>
       </div>
     )
   }
 }
-git add .
+
